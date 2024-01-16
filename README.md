@@ -61,8 +61,13 @@ Para poder calcular este KPI fué necesario encontrar el censo de la población 
 El censo año por año queda en el archivo "C:\Users\Usuario\Henry\Proyecto 2 Data Analytics\Repositorio Siniestros Viales\proy_1025_depto_caba.xls" (https://www.indec.gob.ar/ftp/cuadros/poblacion/proy_1025_depto_caba.xls) 
 Esta información se convirtió a un data frame y se incluyó en el archivo EDA.
 
-En el archivo EDA, se incluyó la información del censo
-KPI2 = Reducir en un 7% la cantidad de accidentes mortales de motociclistas en el último año, en CABA, respecto al año anterior Definimos a la cantidad de accidentes mortales de motociclistas en sisiestros viales como el numero absoluto de accidentes fatales en los que estuvieron involucrados víctimas que viajaban en moto en un determinado periodo temporal. Su fórmula para medir la evolución de los accidentes mortales con víctimas en moto es: (número de accidentes mortales con víctimas en moto en el año anterior - número de accidentes mortales con víctimas en moto en el año actual) / número de accidentes mortales con víctimas en moto en el año anterior.
+
+KPI2 = Reducir en un 7% la cantidad de accidentes mortales de motociclistas en el último año, en CABA, respecto al año anterior.
+Se define la cantidad de accidentes mortales de motociclistas en siniestros viales como el numero absoluto de accidentes fatales en los que estuvieron involucrados víctimas que viajaban en moto en un determinado periodo temporal. Su fórmula para medir la evolución de los accidentes mortales con víctimas en moto es:
+
+ (número de accidentes mortales con víctimas en moto en el año anterior - número de accidentes mortales con víctimas en moto en el año actual) / 
+  número de accidentes mortales con víctimas en moto en el año anterior.
+  
 Posteriormente esta información se rá llevada a una base de datos, se utilizará el motor de búsqueda MySQL y la información y herramientas de datos se presentará en un dashboarde de PowerBI.
 Por todo lo anterior, en este repositorio se presentan los siguientes archivos:
 
